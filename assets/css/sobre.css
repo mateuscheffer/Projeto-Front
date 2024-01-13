@@ -1,0 +1,32 @@
+.divTexto {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.375);
+    color: #f7f7f7;
+    transition: transform 0.9s ease, background-color 0.9s ease;
+    font-size: 25px;
+}
+
+.imgSobre {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.divSobre {
+    overflow: hidden;
+}
+
+.divSobre img {
+    transition: transform 0.9s ease;
+}
+
+.divSobre:hover img {
+    transform: scale(0.9);
+}
+
+.divSobre:hover .divTexto {
+    background-color: rgba(0, 0, 0, 0.375);
+    transform: scale(1);
+}

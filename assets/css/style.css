@@ -1,0 +1,98 @@
+body {
+    margin-top: 180px;
+    background-image: url('/assets/img/Design\ sem\ nome.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 100%;
+}
+
+.imgLogo {
+    width: 60%;
+}
+
+@media (max-width: 768px) {
+    .imgLogo {
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    .imgLogo {
+        width: 100%;
+    }
+}
+
+header nav {
+    background-color: rgb(1, 24, 1);
+}
+
+.nav-link {
+    font-size: 20px;
+    color: #91A7BC;
+}
+
+p {
+    color: #343a40;
+    font-size: 25px;
+}
+
+ul li a {
+    margin-right: 50px;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+
+    background-color: rgb(1, 24, 1);
+    text-align: center;
+    padding: 10px;
+
+}
+
+#iconsRedesSociais {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 35px;
+    color: #91A7BC;
+    transition: color 0.3s ease;
+}
+
+#iconsRedesSociais:hover {
+    color: rgba(16, 77, 16, 0.71) !important;
+}
+
+
+.direitosReservados {
+    font-size: 15px;
+    color: #6b6b6b;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.localizacao a:hover {
+    color: rgba(16, 77, 16, 0.71) !important;
+}
+
+.btn-wpp {
+    background-color: rgb(1, 24, 1);
+    border-radius: 10px;
+    border: solid 1px white;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-wpp:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(1, 24, 1) !important;
+}

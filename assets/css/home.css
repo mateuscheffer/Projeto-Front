@@ -1,0 +1,15 @@
+.imgCapa {
+    border-radius: 10px;
+}
+
+.btn-sobre {
+    background-color: rgb(1, 24, 1);
+    font-size: 30px;
+    border: none;
+
+}
+
+.btn-sobre:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(1, 24, 1);
+}
